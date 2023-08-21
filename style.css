@@ -1,7 +1,18 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
 	background: #262a2b;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+img {
+	position: absolute;
+	top: 10%;
+	left: 77%;
+	height: 100px;
 }
 
 .tilesWrap {
@@ -19,9 +30,8 @@ body {
 	position: relative;
 	vertical-align: top;
 	margin: 10px;
-	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: url(ascent.jpg) no-repeat center center;
+	background: url(./imagens/ascent.jpg) no-repeat center center;
 	background-size: cover;
 	border: 1px solid #252727;
 	text-align: left;
@@ -35,9 +45,9 @@ body {
 	position: relative;
 	vertical-align: top;
 	margin: 10px;
-	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #262a2b;
+	background: url(imagens/fracture.jpg) no-repeat center center;
+	background-size: 310%;
 	border: 1px solid #252727;
 	text-align: left;
 }
@@ -50,9 +60,9 @@ body {
 	position: relative;
 	vertical-align: top;
 	margin: 10px;
-	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #262a2b;
+	background: url(imagens/haven.jpg) no-repeat center center;
+	background-size: 300%;
 	border: 1px solid #252727;
 	text-align: left;
 }
@@ -65,9 +75,9 @@ body {
 	position: relative;
 	vertical-align: top;
 	margin: 10px;
-	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #262a2b;
+	background: url(imagens/bind.jpg) no-repeat center center;
+	background-size: 300%;
 	border: 1px solid #252727;
 	text-align: left;
 }
@@ -80,9 +90,9 @@ body {
 	position: relative;
 	vertical-align: top;
 	margin: 10px;
-	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #262a2b;
+	background: url(imagens/lotus.jpg) no-repeat center center;
+	background-size: 400%;
 	border: 1px solid #252727;
 	text-align: left;
 }
@@ -95,9 +105,9 @@ body {
 	position: relative;
 	vertical-align: top;
 	margin: 10px;
-	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #262a2b;
+	background: url(imagens/pearl.jpg) no-repeat center center;
+	background-size: 310%;
 	border: 1px solid #252727;
 	text-align: left;
 }
@@ -110,9 +120,9 @@ body {
 	position: relative;
 	vertical-align: top;
 	margin: 10px;
-	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #262a2b;
+	background: url(imagens/split.jpg) no-repeat center center;
+	background-size: cover;
 	border: 1px solid #252727;
 	text-align: left;
 }
@@ -127,20 +137,24 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 .tilesWrap li h3 {
-	font-size: 20px;
-	color: black;
+	font-size: 2em;
+	color: white;
 	margin-bottom: 5px;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .tilesWrap li p {
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 1.3em;
+	line-height: 30px;
 	color: rgb(255, 255, 255);
 	margin-top: 55px;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .tilesWrap li:hover h2 {
 	top: 0px;
-	opacity: 0.6;
+	opacity: 1;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px black;
 }
 
 .tilesWrap li:before {
