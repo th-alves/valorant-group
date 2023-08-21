@@ -15,6 +15,20 @@ img {
 	height: 100px;
 }
 
+footer {
+	text-align: center;
+	color: white;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
 .tilesWrap {
 	padding: 0;
 	margin: 50px auto;
@@ -210,4 +224,13 @@ background: linear-gradient(to right, #19bf0a, #35d4fc);
 	background: #FC354C;
 background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
 background: linear-gradient(to right, #b90abf, #4235fc);
+}
+
+@media screen and (max-width: 2560px) {
+	img {
+		top: 70%;
+		left: 70%;
+
+		height: 200px;
+	}
 }
