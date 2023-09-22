@@ -50,7 +50,7 @@ footer a:hover {
 	border: 1px solid #252727;
 	text-align: left;
 }
-.tilesWrap li.fracture {
+.tilesWrap li.sunset {
 	display: inline-block;
 	width: 20%;
 	min-width: 200px;
@@ -60,7 +60,7 @@ footer a:hover {
 	vertical-align: top;
 	margin: 10px;
 	min-height: 25vh;
-	background: url(imagens/fracture.jpg) no-repeat center center;
+	background: url(imagens/sunset-map.webp) no-repeat center center;
 	background-size: 310%;
 	border: 1px solid #252727;
 	text-align: left;
@@ -110,7 +110,7 @@ footer a:hover {
 	border: 1px solid #252727;
 	text-align: left;
 }
-.tilesWrap li.pearl {
+.tilesWrap li.breeze {
 	display: inline-block;
 	width: 20%;
 	min-width: 200px;
@@ -120,7 +120,7 @@ footer a:hover {
 	vertical-align: top;
 	margin: 10px;
 	min-height: 25vh;
-	background: url(imagens/pearl.jpg) no-repeat center center;
+	background: url(imagens/breeze-map.webp) no-repeat center center;
 	background-size: 310%;
 	border: 1px solid #252727;
 	text-align: left;
